@@ -99,3 +99,21 @@ header img{
 	width: 30%;
 	margin-left: 50%;
 }
+/*section one styling*/
+
+.one div{
+	display: inline-block;
+	width: 35%;
+	margin: 2% 0;
+}
+.one{
+	margin-left: 20%;
+}
+h6{
+	font-family: "Bangers";
+	padding: 1%;
+}
+p{
+	font-family: "Titillium Web";
+	padding: 1%;
+}
