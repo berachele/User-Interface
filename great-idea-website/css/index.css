@@ -73,9 +73,11 @@ nav a{
 	color: lightgray;
 	text-decoration: unset;
 }
-
+nav{
+	margin-left: 20%;
+}
 .logo{
-	margin-left: 15%;
+	margin-left: 5%;
 }
 
 /*header styling*/
@@ -112,6 +114,7 @@ header img{
 h6{
 	font-family: "Bangers";
 	padding: 1%;
+	font-size: 20px;
 }
 p{
 	font-family: "Titillium Web";
@@ -125,4 +128,28 @@ div .middle-img{
 	margin: 0 20%;
 	width: 932px;
 	padding: 3% 0;
+}
+
+/*section two styling*/
+
+.two div{
+	display: inline-block;
+	width: 310px;
+	margin: 2% 0;
+	padding: 1%;
+}
+.two{
+	margin-left: 20%;
+}
+
+/*Contanct and footer styles*/
+
+.four{
+	margin-left: 20%;
+}
+.four p{
+	line-height: 120%;
+}
+footer{
+	text-align: center;
 }
