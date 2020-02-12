@@ -117,3 +117,12 @@ p{
 	font-family: "Titillium Web";
 	padding: 1%;
 }
+
+/*img styling*/
+
+div .middle-img{
+	display: block;
+	margin: 0 20%;
+	width: 932px;
+	padding: 3% 0;
+}
