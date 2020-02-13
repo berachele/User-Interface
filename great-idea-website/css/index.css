@@ -49,7 +49,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid grey;
 }
 
 html, body {
@@ -73,15 +72,18 @@ h1, h2, h3, h4, h5 {
 /*nav styles*/
 nav a{
 	display: inline-block;
-	margin-right: 5%;
-	margin: 4%;
+	margin: 3% 25% 0% -15%;
+	font-size: 15px;
 	color: lightgray;
 	text-decoration: unset;
 }
 nav{
 	margin-left: 20%;
+	
 }
-
+.logo{
+	margin: 0% 0% 0% -13%;
+}
 
 /*header styling*/
 header{
@@ -91,11 +93,11 @@ header{
 .left-side{
 	display: inline-block;
 	width: 40%;
-	margin-left: 20%;
+	margin-left: 13%;
 	padding: 0% 0 2%;
 }
 h1{
-	font-size: 5em;
+	font-size: 6em;
 	text-align: center;
 	letter-spacing: 2px;
 }
@@ -107,38 +109,40 @@ h1{
 }
 .circle{
 	display: inline-block;
-	width: 24%;
-	margin-left: 4%;
+	width: 27%;
+	margin-left: 6%;
 	margin-top: 3%;
-	margin-bottom: -2%;
+	margin-bottom: -4%;
 }
 /*section one styling*/
 
 .one div{
 	display: inline-block;
-	width: 35%;
+	width: 49%;
 	margin: 2% 0;
 }
 .one{
 	border-top: 1px solid black;
-	margin: 0 20%
+	margin: 0 14% 0% 8%;
 }
 h6{
 	font-family: "Bangers";
-	padding: 1%;
+	padding: 2% 0;
 	font-size: 20px;
+	margin: 0 0 1% 0%;
 }
 p{
 	font-family: "Titillium Web";
-	padding: 1%;
+	padding: 0 10% 0 0;;
+	margin: 0 0 1% 0%
 }
 
 /*img styling*/
 
 div .middle-img{
 	display: block;
-	margin: 0 20%;
-	width: 932px;
+	margin: 0 8%;
+	width: 81em;
 	padding: 3% 0;
 }
 
@@ -146,26 +150,32 @@ div .middle-img{
 
 .two div{
 	display: inline-block;
-	width: 310px;
-	margin: 2% 0;
+	width: 33%;
+	margin: 2% 14.5px 2% -1%;
 	padding: 1%;
 	
 }
 .two{
-	border-top: 1px solid black;
-	margin: 0 20%;
+	margin: 0 14% 0% 8%;
 }
 
-/*Contanct and footer styles*/
+/*Contact and footer styles*/
 
 .four{
 	margin: 0 20%;
 	border-top: 1px solid black;
-	
+	margin: 0 14% 0% 8%;
+}
+.contactMe{
+	margin: 0 0 0 0;
+}
+.info{
+	margin: 0 0 0 0:
 }
 .four p{
 	line-height: 120%;
 }
 footer{
 	text-align: center;
+	margin-bottom: 10%;
 }
